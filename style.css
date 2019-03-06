@@ -9,6 +9,7 @@
 body{
     max-width:1450px;
     margin:0 auto;
+    overflow-x: hidden;
 }
 header{
     width: 100%;
@@ -132,19 +133,16 @@ header .baner-wrapper .model .model-img{
     z-index:-1 ; 
 }
 .services{
-    width: 100%;
+    width: 100%; 
     overflow: hidden;
     background-color: #f5f5f5;
 }
 .triangle-services{
-    position: relative;
-    z-index:;
-    top:600px;
-    right:400px;
-    width:400px ;
-    height:400px;
+    position: absolute;
+    width:10vw ;
+    height:10vw;
     background-color: rgb(188, 46, 58);
-    transform: rotate(45deg);
+    transform: rotate(45deg)translate(115%,210%);
 }
 .services-wrapper{
     width:100%;
@@ -190,6 +188,140 @@ header .baner-wrapper .model .model-img{
   line-height: 1.6;
   padding-left: 75px;
 }
+.process{
+    width: 100%;
+    height: 500px;
+}
+.triangle-process{
+    position: absolute;
+    width:55vw ;
+    height:55vw;
+    background-color: rgb(188, 46, 58);
+    transform: rotate(45deg)translate(93%,-107%); 
+}
+.process-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10%;
+}
+.process-wrapper .process-description{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis:30%;
+    padding-left: 10%;
+    
+}
+.process-wrapper h1{ 
+    padding-top: 6%;
+    padding-left: 10%;
+    flex-basis: 100%;
+    color: #494949;
+    font-size: 55px;
+    line-height: 1.2;
+    font-weight: 900;
+}
+.process-wrapper .process-description p{
+    flex-basis: 100%;
+    padding-top: 8%;
+    font-size: 17px;
+    font-family: "OpenSans";
+    color: rgb(106, 106, 106);
+    line-height: 1.6;
+}
+.process-wrapper .process-description .btn-process{
+    padding-top: 8%;
+}
+.process-wrapper .process-description .btn{
+    background-color: #bb2d39;
+    color:#fff;
+}
+.process-stages{
+    position: relative;
+    left:5%;
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 70%;
+    color: white;
+}
+.process-stages .process-stage-number{
+    position: relative;
+    left:88%;
+    font-size:25px;
+
+}
+.process-stages .process-stage1{
+    position: relative;
+    overflow: hidden;
+    flex-basis: 28%;
+    transform: skewX( -20deg );
+}
+.process-stage1:before{
+    content: "";
+    position: absolute;
+    width: 160%;
+    height: 136%;
+    left: -38%;
+    z-index: -1;
+    transform: skewX( 20deg );
+    background:url(img/process1.jpg)0 0 no-repeat;
+    background-size: cover;
+    filter: opacity(0.8);
+
+}
+.process-stages .process-stage1 h3{
+    position: relative;
+    top:40%;
+    left:5%;
+}
+.process-stages .process-stage1 p{
+    position: relative;
+    top:45%;
+    width:75%;
+    left:5%;
+}
+
+
+.process-stages .process-stage2{
+    position: relative;
+    overflow: hidden;
+    flex-basis: 28%;
+    transform: skewX( -20deg );
+}
+.process-stage2:before{
+    content: "";
+    position: absolute;
+    width: 160%;
+    height: 136%;
+    top: -18%;
+    left: -38%;
+    z-index: -1;
+    transform: skewX( 20deg );
+    background:url(img/process2.jpg)0 0 no-repeat;
+    background-size:cover;
+    filter: contrast(60%);
+}
+.process-stages .process-stage3{
+    flex-basis: 28%;
+    transform: skewX( -20deg );
+    background-image: url(img/process3.jpg);
+    background-size: cover;
+}
+.process-stages h3{
+    font-size: 30px;
+    text-transform:uppercase;
+    font-weight: 900; 
+}
+.process-stages .process-stage2 h3{
+    position: relative;
+    top:72%;
+    left:5%;
+    }
+.process-stages .process-stage3 h3{
+    position: relative;
+    top:82%;
+    left:5%; 
+}
+
 
 
 
