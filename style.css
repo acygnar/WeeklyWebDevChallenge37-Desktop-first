@@ -237,7 +237,7 @@ header .baner-wrapper .model .model-img{
 }
 .process-stages{
     position: relative;
-    left:5%;
+    left:6%;
     display: flex;
     justify-content: space-around;
     flex-basis: 70%;
