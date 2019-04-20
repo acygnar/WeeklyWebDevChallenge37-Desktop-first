@@ -528,6 +528,12 @@ header .baner-wrapper .model .model-img{
     }
 }
 @media (max-width:664px){
+    .about-us h1{
+        font-size:35px;
+    }
+    .about-us p{
+        font-size:14px;
+    }
     .services .services-item{
         flex-basis: 100%;
     }
