@@ -5,8 +5,14 @@ $(document).ready(function(){
     nav: true,
     navText: ["<i class='fas fa-caret-left'></i>","<i class='fas fa-caret-right'></i>"],
     });
+    $(".owl-carousel-clients").owlCarousel({ 
+      items: 1, 
+      nav: false,
+      });
   });
   var owl = $('.owl-carousel');
+  var owlClients = $('.owl-carousel-clients');
+ 
 
   const burger= document.querySelector(".burger");
   const mobileNav= document.querySelector(".nav-items-mobile");
