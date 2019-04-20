@@ -510,6 +510,19 @@ header .baner-wrapper .model .model-img{
 }
 
 
+.clients{
+    height: 600px;
+}
+.clients h1{
+    color: #494949;
+    font-size: 55px;
+    line-height: 1.2;
+    font-weight: 900;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+
 @media (max-width:1024px){
     .logo-agency-mobile{
         visibility: visible;
@@ -528,23 +541,49 @@ header .baner-wrapper .model .model-img{
     }
 }
 @media (max-width:664px){
+    .btn{
+        width: 100px;
+        padding: 10px;
+        font-size: 10px;
+    }
+    header .btn-header{
+        transform: translate(55%,300%);
+    }
+    .triangle-about-us{
+        display:none;
+    }
     .about-us h1{
         font-size:35px;
     }
     .about-us p{
         font-size:14px;
     }
+    .services-wrapper h1{
+        font-size:35px;
+    }
+    .services-wrapper p{
+        font-size:14px;
+    }
     .services .services-item{
         flex-basis: 100%;
-    }
-    .triangle-about-us{
-        display:none;
     }
     .triangle-services{
         display:none;
     }
     .triangle-process{
         display:none;
+    }
+    .process-wrapper h1{
+        font-size:35px;
+    }
+    .process-wrapper .process-description {
+        flex-basis: 100%;
+    }
+    .process-wrapper .process-description p{
+        font-size:14px;
+    }
+    .team h1{
+        font-size:35px;
     }
 }
 
