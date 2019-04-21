@@ -1,11 +1,17 @@
+
+
 $(document).ready(function(){
-    $(".owl-carousel").owlCarousel({ 
+  var teamOwl = $('#team-owl');
+  var clientsOwl = $('#clients-owl');
+  var clientsThumbOwl = $('#clients-owl-thumb');
+
+    teamOwl.owlCarousel({ 
     items: 3, 
     dots: false,
     nav: true,
     navText: ["<i class='fas fa-caret-left'></i>","<i class='fas fa-caret-right'></i>"],
     });
-    $(".owl-carousel-clients").owlCarousel({ 
+    clientsOwl.owlCarousel({ 
       items: 1, 
       nav: false,
       });

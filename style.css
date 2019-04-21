@@ -452,7 +452,8 @@ header .baner-wrapper .model .model-img{
     overflow: hidden;
     width:250px;
     height: 250px;
-    border:20px solid #fff;
+    border:15px solid #fff;
+    box-shadow: -3.508px 11.476px 40px 0px rgba(0, 1, 1, 0.47);
     transform: rotate(45deg);
     margin-top:70px;
 }
@@ -511,16 +512,31 @@ header .baner-wrapper .model .model-img{
 
 
 .clients{
-    height: 600px;
+    height: 650px;
 }
 .clients h1{
     color: #494949;
     font-size: 55px;
     line-height: 1.2;
     font-weight: 900;
-    padding-top: 5%;
+    padding-top: 2%;
     padding-bottom: 3%;
 }
+.clients .owl-clients-item{
+    display:flex;
+    width: 80%;
+}
+.clients .client-opinion{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 80%;
+    padding-left: 8%;
+    padding-top: 90.5px;
+}
+.client-opinion .mark{
+    flex-basis: 12%;
+}
+
 footer{
   background: url(img/sitting-people.jpg);
   background-size: cover;
