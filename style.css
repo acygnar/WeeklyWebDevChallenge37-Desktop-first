@@ -33,6 +33,12 @@ header nav a{
     display: block;
     padding: 10px;
 }
+.nav-items{
+    transition: 0.5s;
+}
+.nav-items.active{
+    background-color:rgba(0, 1, 1, 0.47);
+}
 .logo-agency-mobile{
     visibility: hidden;
     position: absolute;
@@ -419,7 +425,7 @@ header .baner-wrapper .model .model-img{
     align-items: center;
     height: 400px;
 }
-.owl-item-person-name-1, .owl-item-person-name-2, .owl-item-person-name-3, .owl-item-person-name-4{
+.owl-item-person-name{
     z-index: 999;
     background-color: #000;
     color:#fff;
@@ -431,18 +437,19 @@ header .baner-wrapper .model .model-img{
     font-size: 20px;
     transform: skewX( 45deg );
 }
-.owl-item-person-name-1::after{
-    content:"dfdsgfsd";
+.owl-item-person-name p{
     transform: skewX( -45deg );
-
+}
+.owl-item-person-position p{
+    transform: skewX( -45deg );
 }
 .owl-item-person-position{
     z-index: 999;
     background-color: #bb2d39;
     color:#fff;
     width: 100px;
-    height: 20px;
-    line-height: 20px;
+    height: 22px;
+    line-height: 22px;
     text-align: center;
     font-weight: 700;
     transform: skewX( 45deg );
@@ -521,6 +528,7 @@ header .baner-wrapper .model .model-img{
     font-weight: 900;
     padding-top: 2%;
     padding-bottom: 3%;
+    padding-left:12%;
 }
 .clients .owl-clients-item{
     display:flex;
@@ -530,12 +538,17 @@ header .baner-wrapper .model .model-img{
     display: flex;
     flex-wrap: wrap;
     flex-basis: 80%;
+    color: #6a6a6a;
     padding-left: 8%;
     padding-top: 90.5px;
 }
 .client-opinion .mark{
     flex-basis: 12%;
 }
+.clients .client-opinion :nth-child(3){
+    font-weight: 600;
+}
+
 
 footer{
   background: url(img/sitting-people.jpg);

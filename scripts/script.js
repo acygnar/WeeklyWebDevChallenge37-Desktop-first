@@ -3,7 +3,7 @@
 $(document).ready(function(){
   var teamOwl = $('#team-owl');
   var clientsOwl = $('#clients-owl');
-  var clientsThumbOwl = $('#clients-owl-thumb');
+  
 
     teamOwl.owlCarousel({ 
     items: 3, 
@@ -16,15 +16,27 @@ $(document).ready(function(){
       nav: false,
       });
   });
+  
   var owl = $('.owl-carousel');
-  var owlClients = $('.owl-carousel-clients');
  
 
   const burger= document.querySelector(".burger");
+  const desktopNav =document.querySelector(".nav-items");
   const mobileNav= document.querySelector(".nav-items-mobile");
+  
 
   function activeBurger() {
     burger.classList.toggle("active");
     mobileNav.classList.toggle("active");
   }
+  function darkNav() {
+    const scrollSize = window.scrollY;
+     if(scrollSize >= 100){
+    desktopNav.classList.add("active");
+    }
+    else{
+      desktopNav.classList.remove("active");
+    }
+  }
 burger.addEventListener("click", activeBurger);
+window.addEventListener("scroll", darkNav);
