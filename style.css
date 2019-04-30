@@ -673,6 +673,25 @@ footer .spacer{
         font-size:35px;
     }
 }
+@media(max-width:528px){
+    header .nav-items .logo-agency a{
+    font-size:30px;
+    }
+    header .baner-wrapper .model{
+        transform: translate(0%,18%);
+    }
+    header .btn-header{
+
+    }
+}
+@media(max-width:498px){
+    header .baner-wrapper .model{
+        transform: translate(0%,24%);
+    }
+    header .btn-header{
+
+    }
+}
 
 
 @media(min-width:1450px){
