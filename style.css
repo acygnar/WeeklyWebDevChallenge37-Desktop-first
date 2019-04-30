@@ -672,7 +672,7 @@ footer .spacer{
     .process-wrapper .process-description p{
         font-size:14px;
     }
-    .team h1{
+    .team h1, .team-mobile h1{
         font-size:35px;
     }
 }
@@ -746,8 +746,8 @@ footer .spacer{
     .triangle-about-us{
         bottom: 1000px;
     }
-    
 }
+
 
 
 
