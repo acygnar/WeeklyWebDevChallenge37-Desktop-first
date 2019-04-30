@@ -341,7 +341,7 @@ header .baner-wrapper .model .model-img{
 .process-stage1:before{
     content: "";
     position: absolute;
-    width: 160%;
+    width: 162%;
     height: 136%;
     left: -38%;
     z-index: -1;
@@ -373,7 +373,7 @@ header .baner-wrapper .model .model-img{
 .process-stage2:before{
     content: "";
     position: absolute;
-    width: 160%;
+    width: 162%;
     height: 136%;
     top: -18%;
     left: -38%;
@@ -508,16 +508,16 @@ header .baner-wrapper .model .model-img{
     background-size: cover;
 }
 .owl-nav i{
-    position: relative;
-    bottom:225px;
+    position: absolute;
+    bottom:175px;
     font-size:70px;
 
 }
 .owl-nav .fas.fa-caret-left{
-    left:5vw;
+    left:1vw;
 }
 .owl-nav .fas.fa-caret-right{
-    left:90vw;
+    right:1vw;
 }
 
 
@@ -636,6 +636,9 @@ footer .spacer{
     header .btn-header{
         transform: translate(55%,300%);
     }
+    .about-us{
+        height: 350px;
+    }
     .triangle-about-us{
         display:none;
     }
@@ -683,6 +686,12 @@ footer .spacer{
     header .btn-header{
         transform: translate(55%,250%);
     }
+    .about-us-description {
+        flex-basis: 70%;
+    }
+    .macbook {
+        flex-basis: 40%;
+    }
 }
 @media(max-width:498px){
     header .baner-wrapper .model{
@@ -699,6 +708,12 @@ footer .spacer{
     header .btn-header{
         transform: translate(55%,360%);
     }
+    .about-us h1 {
+        font-size: 30px;
+    }
+    .about-us p {
+        font-size: 12px;
+    }
 }
 @media(max-width:434px){
     header .baner-wrapper .model{
@@ -707,7 +722,7 @@ footer .spacer{
 }
 @media(max-width:404px){
     header .baner-wrapper .model{
-        transform: translate(0%,50%);
+        transform: translate(5%,50%);
     }
 }
 @media(max-width:380px){
