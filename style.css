@@ -681,7 +681,7 @@ footer .spacer{
         transform: translate(0%,18%);
     }
     header .btn-header{
-
+        transform: translate(55%,250%);
     }
 }
 @media(max-width:498px){
@@ -689,7 +689,40 @@ footer .spacer{
         transform: translate(0%,24%);
     }
     header .btn-header{
-
+        transform: translate(55%,315%);
+    }
+}
+@media(max-width:464px){
+    header .baner-wrapper .model{
+        transform: translate(0%,35%);
+    }
+    header .btn-header{
+        transform: translate(55%,360%);
+    }
+}
+@media(max-width:434px){
+    header .baner-wrapper .model{
+        transform: translate(0%,42%);
+    }
+}
+@media(max-width:404px){
+    header .baner-wrapper .model{
+        transform: translate(0%,50%);
+    }
+}
+@media(max-width:380px){
+    header .baner-wrapper .model{
+        transform: translate(0%,57%);
+    }
+}
+@media(max-width:360px){
+    header .baner-wrapper .model{
+        transform: translate(0%,65%);
+    }
+}
+@media(max-width:338px){
+    header .baner-wrapper .model{
+        transform: translate(0%,73%);
     }
 }
 
