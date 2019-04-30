@@ -2,6 +2,7 @@
 
 $(document).ready(function(){
   var teamOwl = $('#team-owl');
+  var teamOwlMobile = $('#team-owl-mobile');
   var clientsOwl = $('#clients-owl');
   
 
@@ -11,6 +12,12 @@ $(document).ready(function(){
     nav: true,
     navText: ["<i class='fas fa-caret-left'></i>","<i class='fas fa-caret-right'></i>"],
     });
+    teamOwlMobile.owlCarousel({ 
+      items: 1, 
+      dots: false,
+      nav: true,
+      navText: ["<i class='fas fa-caret-left'></i>","<i class='fas fa-caret-right'></i>"],
+      });
     clientsOwl.owlCarousel({ 
       items: 1, 
       nav: false,
