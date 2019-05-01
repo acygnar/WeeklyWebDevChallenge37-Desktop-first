@@ -4,7 +4,8 @@
     text-decoration: none;
     list-style:none;
     box-sizing: border-box;
-    font-family:lato; 
+    font-family:lato;
+    scroll-behavior: smooth; 
 }
 body{
     /*max-width:1450px;*/
