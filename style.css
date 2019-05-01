@@ -375,10 +375,10 @@ header .baner-wrapper .model .model-img{
 .process-stage2:before{
     content: "";
     position: absolute;
-    width: 162%;
-    height: 136%;
-    top: -18%;
-    left: -38%;
+    width: 450px;
+    height: 350px;
+    bottom: -18px;
+    left: -110px;
     z-index: -1;
     transform: skewX( 20deg );
     background:url(img/process2.jpg)0 0 no-repeat;
@@ -637,6 +637,19 @@ footer .copyright{
     .services .services-item{
         flex-basis: 50%;
     }
+@media(max-width:964px){
+    .process-wrapper .process-description{
+        flex-basis: 70%
+    }
+    .process-stages .process-stage1,.process-stages .process-stage2,.process-stages .process-stage3{
+        min-height: 260px;
+    }
+    .process-wrapper .process-description .btn-process {
+        padding-bottom: 5%;
+    }
+    .process-stages{
+        flex-basis:100%;
+    }
 }
 @media(max-width:698px){
     footer .contact-wrapper{
@@ -700,15 +713,29 @@ footer .copyright{
     .triangle-process{
         display:none;
     }
+    .process{
+        height: auto;
+    }
     .process-wrapper h1{
         font-size:35px;
-    }
-    .process-wrapper .process-description {
-        flex-basis: 100%;
     }
     .process-wrapper .process-description p{
         font-size:14px;
     }
+    .process-stages{
+        flex-direction: column;
+        flex-basis: 70%;
+    }
+    .process-stages .process-stage1, .process-stages .process-stage2, .process-stages .process-stage3{
+        transform: none;
+    }
+    .process-stage1:before, .process-stage2:before{
+        transform:none;
+        left:0;
+}
+.process-stages .process-stage3{
+    max-width: 450px;
+}
     .team h1, .team-mobile h1{
         font-size:35px;
     }
@@ -772,7 +799,7 @@ footer .copyright{
 }
 @media(max-width:404px){
     header .baner-wrapper .model{
-        transform: translate(5%,50%);
+        transform: translate(0%,50%);
     }
 }
 @media(max-width:380px){
