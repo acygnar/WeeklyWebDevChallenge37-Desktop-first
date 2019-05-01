@@ -600,6 +600,9 @@ footer .spacer{
     border-top:2px solid #fff;
     width: 60%;
 }
+footer .copyright{
+    text-align: center;
+}
 
 
 
@@ -633,6 +636,32 @@ footer .spacer{
     .services .services-item{
         flex-basis: 50%;
     }
+}
+@media(max-width:698px){
+    footer .contact-wrapper{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .contact-item {
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 25px;
+    }
+    footer i.far.fa-envelope {
+        padding-left: 37.75px;
+    }
+    footer i.fas.fa-map-marked-alt {
+        padding-left: 50.25px;
+    }
+    footer .contact-social-wrapper {
+        width: 50%;
+    }
+    footer .spacer {
+        width: 75%;
+    }
+
+
 }
 @media (max-width:664px){
     .btn{
@@ -682,6 +711,13 @@ footer .spacer{
     .team h1, .team-mobile h1{
         font-size:35px;
     }
+    footer h1{
+        font-size:35px;
+    }
+    .copyright {
+        font-size: 12px;
+    }
+
 }
 @media(max-width:528px){
     header .nav-items .logo-agency a{
