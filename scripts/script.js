@@ -14,7 +14,7 @@ $(document).ready(function(){
     });
     teamOwlMobile.owlCarousel({ 
       items: 1, 
-      dots: false,
+      dots: true,
       nav: true,
       navText: ["<i class='fas fa-caret-left'></i>","<i class='fas fa-caret-right'></i>"],
       });
