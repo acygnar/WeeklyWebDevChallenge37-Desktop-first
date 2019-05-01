@@ -801,6 +801,13 @@ footer .copyright{
 }
 
 
+@media(orientation: landscape){
+    header .nav-items-mobile.active{
+        height: 90vh;
+    }
+
+}
+
 
 
 
