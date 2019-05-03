@@ -664,15 +664,23 @@ footer .copyright{
         flex-direction: column;
         align-items: center;
     }
+    .clients{
+        height: 700px;
+    }
     .clients h1{
         text-align: center;
+        padding-left: 0;
     }
     .clients .owl-theme .owl-nav.disabled+.owl-dots{
-        margin-top: 112px;
+        margin-top: 150px;
     }
     .client-opinion .mark img{
         width: 85%;
     }
+    .clients .client-opinion{
+        height: 85px;
+        padding-left:0;
+}
     .clients .client-opinion :nth-child(3){
         padding-top: 10px;
     }
