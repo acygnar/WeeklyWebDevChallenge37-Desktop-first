@@ -403,7 +403,7 @@ header .baner-wrapper .model .model-img{
     }
 .process-stages .process-stage3 h3{
     position: relative;
-    top:82%;
+    top:72%;
     left:5%; 
 }
 .team-mobile{
@@ -542,7 +542,7 @@ header .baner-wrapper .model .model-img{
 .clients .client-opinion{
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 80%;
+    flex-basis: 75%;
     color: #6a6a6a;
     padding-left: 8%;
     padding-top: 90.5px;
@@ -606,7 +606,11 @@ footer .copyright{
 }
 
 
-
+@media(max-width:1164px){
+    .clients .client-opinion{
+        flex-basis: 70%;
+    }
+}
 @media(max-width:1082px){
     .team{
         display: none;
@@ -649,6 +653,28 @@ footer .copyright{
     }
     .process-stages{
         flex-basis:100%;
+    }
+    .clients .client-opinion{
+        padding-left: 12%;
+        font-size: 14px;
+    }
+}
+@media(max-width:858px){
+    .owl-clients-item{
+        flex-direction: column;
+        align-items: center;
+    }
+    .clients h1{
+        text-align: center;
+    }
+    .clients .owl-theme .owl-nav.disabled+.owl-dots{
+        margin-top: 112px;
+    }
+    .client-opinion .mark img{
+        width: 85%;
+    }
+    .clients .client-opinion :nth-child(3){
+        padding-top: 10px;
     }
 }
 @media(max-width:698px){
@@ -716,15 +742,24 @@ footer .copyright{
     .process{
         height: auto;
     }
+    .process-wrapper{
+        justify-content: center;
+    }
     .process-wrapper h1{
         font-size:35px;
+        text-align: center;
+    }
+    .process-wrapper .process-description{
+        padding-left: 0;
     }
     .process-wrapper .process-description p{
         font-size:14px;
+        text-align: justify;
     }
     .process-stages{
         flex-direction: column;
         flex-basis: 70%;
+        left: 0;
     }
     .process-stages .process-stage1, .process-stages .process-stage2, .process-stages .process-stage3{
         transform: none;
@@ -738,6 +773,9 @@ footer .copyright{
 }
     .team h1, .team-mobile h1{
         font-size:35px;
+    }
+    .clients h1{
+        font-size: 35px;
     }
     footer h1{
         font-size:35px;
@@ -790,6 +828,12 @@ footer .copyright{
     }
     .about-us p {
         font-size: 12px;
+    }
+    .process-wrapper .process-description{
+        flex-basis: 90%;
+    }
+    .process-stages{
+        flex-basis: 90%;
     }
 }
 @media(max-width:434px){
