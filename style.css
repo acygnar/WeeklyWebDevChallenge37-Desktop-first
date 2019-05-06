@@ -19,7 +19,6 @@ header{
     max-height: 750px;
     background-image: url(img/compres/main-baner-min.png);
     background-size: cover;
-
 }
 header nav{
     position: fixed;
@@ -60,7 +59,6 @@ header nav a{
     cursor: pointer;
     z-index:999 ;
 }
-
 .burger span {
     background-color: black;
     position: absolute;
@@ -69,30 +67,23 @@ header nav a{
     left: 0;
     transition: top .2s, bottom .2s, transform .2s .2s;
     border-radius: 15px;
-
 }
-
 .burger span:nth-child(1) {
     top: 0;
 }
-
 .burger.active span:nth-child(1) {
     top: calc(50% - 2.5px);
     transform: rotate(-45deg);
 }
-
 .burger span:nth-child(2) {
     top: calc(50% - 2.5px);
 }
-
 .burger.active span:nth-child(2) {
     opacity: 0;
 }
-
 .burger span:nth-child(3) {
     bottom: 0;
 }
-
 .burger.active span:nth-child(3) {
     bottom: calc(50% - 2.5px);
     transform: rotate(45deg);
@@ -113,7 +104,6 @@ header .nav-items-mobile.active{
     visibility: visible;
     height: 60vh;
 }
-
 header .nav-items{
     display: flex;
     line-height: 1.2;
@@ -132,7 +122,6 @@ header .nav-items .logo-agency a{
         font-family: "Lato";
         color: rgb(255, 255, 255);
 }
-
 .btn{
     display: block;
     padding: 15px;
@@ -164,7 +153,6 @@ transform: translate(0%,12%);
 }
 header .baner-wrapper .model .model-img{
     width: 100%;
-
 }
 .content{
     overflow: hidden;
@@ -196,7 +184,6 @@ header .baner-wrapper .model .model-img{
     padding-top:5%; 
     color:#6a6a6a;
 }
-
 .about-us .btn{
     margin-top: 20%;
     background-color: #bb2d39;
@@ -235,7 +222,6 @@ header .baner-wrapper .model .model-img{
     padding-bottom:8%; 
     padding-left:8%;
     padding-right: 8%;
-
 }
 .services-wrapper h1{
     flex-basis:100%; 
@@ -255,7 +241,6 @@ header .baner-wrapper .model .model-img{
 }
 .services .services-item img{
     align-self: center;
-
 }
 .services .services-item h2{
   font-family: "OpenSans";
@@ -293,7 +278,6 @@ header .baner-wrapper .model .model-img{
     flex-wrap: wrap;
     flex-basis:30%;
     padding-left: 10%;
-    
 }
 .process-wrapper h1{ 
     padding-top: 6%;
@@ -332,7 +316,6 @@ header .baner-wrapper .model .model-img{
     position: relative;
     left:88%;
     font-size:25px;
-
 }
 .process-stages .process-stage1{
     position: relative;
@@ -351,7 +334,6 @@ header .baner-wrapper .model .model-img{
     background:url(img/process1.jpg)0 0 no-repeat;
     background-size: cover;
     filter: opacity(0.8);
-
 }
 .process-stages .process-stage1 h3{
     position: relative;
@@ -364,8 +346,6 @@ header .baner-wrapper .model .model-img{
     width:75%;
     left:5%;
 }
-
-
 .process-stages .process-stage2{
     position: relative;
     overflow: hidden;
@@ -521,8 +501,6 @@ header .baner-wrapper .model .model-img{
 .owl-nav .fas.fa-caret-right{
     right:1vw;
 }
-
-
 .clients{
     height: 650px;
 }
@@ -553,8 +531,6 @@ header .baner-wrapper .model .model-img{
 .clients .client-opinion :nth-child(3){
     font-weight: 600;
 }
-
-
 footer{
   background: url(img/sitting-people.jpg);
   background-size: cover;
@@ -604,8 +580,6 @@ footer .spacer{
 footer .copyright{
     text-align: center;
 }
-
-
 @media(max-width:1164px){
     .clients .client-opinion{
         flex-basis: 70%;
@@ -791,7 +765,6 @@ footer .copyright{
     .copyright {
         font-size: 12px;
     }
-
 }
 @media(max-width:528px){
     header .nav-items .logo-agency a{
@@ -885,12 +858,5 @@ footer .copyright{
     header .nav-items-mobile.active{
         height: 100vh;
     }
-
 }
-
-
-
-
-
-
-
+}
