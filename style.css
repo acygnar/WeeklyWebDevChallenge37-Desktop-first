@@ -551,10 +551,11 @@ header .baner-wrapper .model .model-img{
 position: absolute;
 width: 1200px;
 height: 1200px;
-top:-36%;
+top:64%;
 right: 90%;
 background-color: rgb(188, 46, 58);
 transform: rotate(45deg);
+z-index: 1;
 
 }
 .triangle-clients-black{
