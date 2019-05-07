@@ -266,7 +266,8 @@ header .baner-wrapper .model .model-img{
     width:55vw ;
     height:55vw;
     background-color: rgb(188, 46, 58);
-    transform: rotate(45deg)translate(93%,-107%); 
+    transform: rotate(45deg)translate(93%,-107%);
+    z-index: 1; 
 }
 .process-wrapper{
     display: flex;
@@ -311,6 +312,7 @@ header .baner-wrapper .model .model-img{
     justify-content: space-around;
     flex-basis: 70%;
     color: white;
+    z-index: 2;
 }
 .process-stages .process-stage-number{
     position: relative;
@@ -401,7 +403,7 @@ header .baner-wrapper .model .model-img{
     position: absolute;
     width: 700px;
     height: 700px;
-    bottom:45%;
+    bottom:46%;
     right:100%;
     background-color:#000;
     transform: rotate(45deg);
@@ -676,6 +678,12 @@ footer .copyright{
         padding-left: 12%;
         font-size: 14px;
     }
+    .triangle-process{
+        display: none;
+    }
+    .triangle-footer{
+        display: none;
+    }
 }
 @media(max-width:858px){
     .owl-clients-item{
@@ -701,6 +709,9 @@ footer .copyright{
 }
     .clients .client-opinion :nth-child(3){
         padding-top: 10px;
+    }
+    .triangle-clients-red, .triangle-clients-black{
+        display: none;
     }
 }
 @media(max-width:698px){
@@ -762,9 +773,6 @@ footer .copyright{
     .triangle-services{
         display:none;
     }
-    .triangle-process{
-        display:none;
-    }
     .process{
         height: auto;
     }
@@ -774,6 +782,7 @@ footer .copyright{
     .process-wrapper h1{
         font-size:35px;
         text-align: center;
+        padding-left: 0;
     }
     .process-wrapper .process-description{
         padding-left: 0;
